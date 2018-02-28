@@ -15,7 +15,7 @@ namespace dotnetcore_sample.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Testing CI/CD.";
+            ViewData["Message"] = "Testing CI/CD!";
 
             return View();
         }
